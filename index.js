@@ -1,4 +1,5 @@
-import isType from "./utils/isType";
+const isType = require("./utils/isType");
+
 const defaultConfig = {};
 
 const basicConfig = {
@@ -79,4 +80,10 @@ const args = (array) => {
   };
 };
 
-export { arg, args };
+console.log(
+  args({
+    name: "name",
+  })
+);
+
+export default { arg, args };
