@@ -22,3 +22,21 @@ export default {
   ...types,
 };
 ```
+
+### Default
+
+By default the `args` util will assume you are trying to pass a string. This means that you only need to pass the name of the argument, any other values would are automatically assigned, for instance the type of the argument.
+
+```
+const types = args([
+  {
+    name: 'name',
+  },
+]);
+```
+
+This will result in the following setup.
+
+## Storybook docs
+
+Storybook has their own documentation about adding new types in the documentation, these can be found [here](https://storybook.js.org/docs/react/api/argtypes).
