@@ -1,6 +1,6 @@
 {
   "name": "@greenberry/storybook-args",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Create arguments for Storybooks with ease",
   "main": "index.js",
   "scripts": {
