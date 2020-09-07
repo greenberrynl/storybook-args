@@ -1,0 +1,22 @@
+{
+  "name": "@greenberry/storybook-args",
+  "version": "1.0.0",
+  "description": "Create arguments for Storybooks with ease",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenberrynl/storybook-args.git"
+  },
+  "keywords": [
+    "storybook"
+  ],
+  "author": "Sander Hidding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greenberrynl/storybook-args/issues"
+  },
+  "homepage": "https://github.com/greenberrynl/storybook-args#readme"
+}
